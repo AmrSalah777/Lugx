@@ -2,6 +2,96 @@
     font-family:  sans-serif;
     margin: 0;
     padding: 0;
+
+}
+@media (max-width:600px){
+   main .trend{
+    height: 900px;
+   }
+
+   main .trend .trend-game{
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    
+   }
+   main .trend .trend-game .card .img-card{
+    width: 100%;
+   }
+   main .trend .trend-game .card{
+    margin-top: 20px;
+   }
+   main .most-play{
+    margin-top: 800px;
+    height: 2700px;
+   }
+   
+   main .most-play .top .top-game{
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    
+   }
+   main .most-play .top .top-game .card{
+    height: 100%;
+   }
+   main .topGame{
+    height: 1750px;
+   }
+   main .topGame .cardAction{
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+   }
+    main .topGame .cardAction .card{
+        margin-top: 80px;
+    }
+}
+@media (min-width:601px) and (max-width:992px){
+   main .trend{
+    height: 900px;
+   }
+
+   main .trend .trend-game{
+    flex-direction: column; 
+   }
+   main .trend .trend-game .card{
+    width: 100%;
+   }
+   main .trend .trend-game .card .img-card{
+    width: 100%;
+   }
+   main .trend .trend-game .card{
+    margin-top: 20px;
+   }
+   main .most-play{
+    margin-top: 1550px;
+    height: 4400px;
+   }
+   
+   main .most-play .top .top-game{
+    flex-direction: column;
+   }
+   main .most-play .top .top-game .card{
+    width: 100%;
+    height: 100%;
+   }
+   main .most-play .top .top-game .card img{
+    width: 100%;
+   }
+   main .topGame{
+    height: 1750px;
+   }
+   main .topGame .cardAction{
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+   }
+    main .topGame .cardAction .card{
+        margin-top: 80px;
+    }
 }
 .btn{
     padding: 0 20px;
